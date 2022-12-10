@@ -23,27 +23,25 @@ Other command line switches supported by `owncloudcmd` include the following:
 [width="100%",cols="45%,55%",options="header"]
 |===
 | Switch | Description
-| -s, --silten                      Don't be so verbose.
-|  --httpproxy <http://server:port>  Specify a http proxy to use.
-|  --trust                           Trust the SSL certification
-|  --exclude <file>                  Path to an exclude list [file]
-|  --unsyncedfolders <file>          File containing the list of unsynced remote
-|                                    folders (selective sync)
-|  --server <url>                    Use [url] as the location of the server.
-|                                    OCIS only (server location and spaces url
-|                                    can differ)
-|  -u, --user <name>                 Use [name] as the login name
-|  -p, --password <password>         Use [pass] as password
-|  -n                                Use netrc (5) for login
-|  --non-interactive                 Do not block execution with interaction
-|  --max-sync-retries <n>            Retries maximum n times (default to 3)
-|  --uplimit <n>                     Limit the upload speed of files to n KB/s
-|  --downlimit <n>                   Limit the download speed of files to n KB/s
-|  --logdebug                        More verbose logging
-|  -h, --help                        Displays help on commandline options.
-|  --help-all                        Displays help including Qt specific
-|                                    options.
-|  -v, --version                     Displays version information.
+| -s, --silten                       |Don't be so verbose.
+|  --httpproxy <http://server:port>  |Specify a http proxy to use.
+|  --trust                           |Trust the SSL certification
+|  --exclude <file>                  |Path to an exclude list [file]
+|  --unsyncedfolders <file>          |File containing the list of unsynced remote
+|                                    |folders (selective sync)
+|  --server <url>                    |Use [url] as the location of the server.
+|                                    |OCIS only (server location and spaces url can differ)                                    
+|  -u, --user <name>                 |Use [name] as the login name
+|  -p, --password <password>         |Use [pass] as password
+|  -n                                |Use netrc (5) for login
+|  --non-interactive                 |Do not block execution with interaction
+|  --max-sync-retries <n>            |Retries maximum n times (default to 3)
+|  --uplimit <n>                     |Limit the upload speed of files to n KB/s
+|  --downlimit <n>                   |Limit the download speed of files to n KB/s
+|  --logdebug                        |More verbose logging
+|  -h, --help                        |Displays help on commandline options.
+|  --help-all                        |Displays help including Qt specific options
+|  -v, --version                     |Displays version information.
 |===
 
 == Credential Handling
