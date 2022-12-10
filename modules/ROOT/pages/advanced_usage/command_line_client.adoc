@@ -11,10 +11,9 @@ To invoke `owncloudcmd`, you must provide the local and the remote repository UR
 
 [source,console]
 ----
-owncloudcmd [OPTIONS...] sourcedir owncloudurl [remote_folder]
+owncloudcmd [OPTIONS...] localdir owncloudurl [remote_folder]
 ----
 
-`sourcedir` is the local directory 
 `owncloudurl` is the server URL in the format 'https://username:password@servername/owncloud/' 
 'remote_folder' is the folder inside owncloud to replicate.  (this is optional)
 
