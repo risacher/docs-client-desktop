@@ -11,7 +11,7 @@ To invoke `owncloudcmd`, you must provide the local and the remote repository UR
 
 [source,console]
 ----
-owncloudcmd [OPTIONS...] sourcedir owncloudurl remote_folder
+owncloudcmd [OPTIONS...] sourcedir owncloudurl [remote_folder]
 ----
 
 `sourcedir` is the local directory 
